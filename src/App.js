@@ -1,9 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import { Route, Routes } from 'react-router-dom';
-import Home from './Home';
-import About from './About';
-import Contact from './Contact';
 import Header from './Header';
 
 function App() {
@@ -24,11 +20,6 @@ function App() {
         </a>
       </header>
       <Header />
-      <Routes>
-        <Route path="/home" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
-      </Routes>
     </div>
   );
 }
